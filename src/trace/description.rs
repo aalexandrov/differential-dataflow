@@ -56,7 +56,6 @@
 //! times at which data may possibly be sent.
 
 use timely::{PartialOrder, progress::Antichain};
-use serde::{Serialize, Deserialize};
 
 /// Describes an interval of partially ordered times.
 ///
